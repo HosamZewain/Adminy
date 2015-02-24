@@ -1,0 +1,12 @@
+Adminy is an Open Source project created by : 
+Hosam Zewain
+www.hosamzewain.com
+
+
+Adminy documentation:
+http://hosamzewain.com/adminy/doc
+
+
+
+
+Released as Open Source under the Creative Commons Attribution 4.0 license - Ver. 1.0.0

@@ -1,0 +1,26 @@
+/*
+    Theme Name: Adminty
+    Theme URI: http://www.roqay.com
+    Author: Hosam Zewain
+    Author URI: http://www.hosamzewain.com
+    Description:  Free Admin Panal
+    Version: 1.0
+*/
+html{
+    direction: ltr;
+}
+.pull-left{
+    float: right !important;
+}
+.pull-right{
+    float: left !important;
+}
+.text-right{
+    text-align: left !important;
+}
+.text-left{
+    text-align: right !important;
+}
+form {
+  padding: 10px;
+}
