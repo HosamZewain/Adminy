@@ -97,18 +97,6 @@
 }));
 $(document).ready(function() {
 
-//    $("header").append("<div class='col-lg-4 col-md-5 col-sm-7 col-xs-12 pull-right title'><span class='glyphicon glyphicon-cog title_icon'></span><h1 class='h3 visible-lg-inline-block visible-md-inline-block visible-sm-inline-block visible-xs-inline-block title_text'>لوحة تحكم ادمني العربيه</h1>\n\
-//</div><div class='col-lg-2 col-md-3 col-sm-5 col-xs-12 text-center'><div class='dropdown  dropdown_nav'>\n\
-//<button class='btn btn-default dropdown-toggle' type='button' id='dropdownMenu1' data-toggle='dropdown'>\n\
-//<span class='glyphicon glyphicon-user user_icon'></span>Hosam Zewain<span class='caret'></span></button>\n\
-//<ul class='dropdown-menu' role='menu' aria-labelledby='dropdownMenu1'>\n\
-//<li role='presentation'><a role='menuitem' tabindex='-1' href='#'>معلومات الحساب</a></li>\n\
-//<li role='presentation'><a role='menuitem' tabindex='-1' href='#'>الرسائل الخاصة</a></li>\n\
-//<li role='presentation' class='divider'></li><li role='presentation' class='divider'></li>\n\
-//Theme Style :<li role='presentation'><a role='menuitem' tabindex='-1' href='#' class='light'>light</a><a role='menuitem' tabindex='-1' href='#' class='dark'>dark</a></li>\n\
-//<li role='presentation' class='divider'></li><li role='presentation' class='divider'></li>\n\
-//<li role='presentation'><a role='menuitem' tabindex='-1' href='#'>تسجيل خروج</a></li></ul>\n\
-//</div></div>");
     $(".last-foot").append("<p class='english'>Released as Open Source under the <a href='http://www.opensource.com/licenses'>Creative Commons Attribution 4.0 license </a>    -   By : <a href='http://www.roqay.com'>Roqay </a> -  Ver. 1.0.0</p> ");
 
     if ($.cookie("href") == undefined) {
