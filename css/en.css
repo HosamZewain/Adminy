@@ -1,26 +1,73 @@
-/*
-    Theme Name: Adminty
-    Theme URI: http://www.roqay.com
-    Author: Hosam Zewain
-    Author URI: http://www.hosamzewain.com
-    Description:  Free Admin Panal
-    Version: 1.0
-*/
-html{
+/**
+ * Created by hosamzewain on 8/11/15.
+ */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html, body {
     direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.pull-left{
-    float: right !important;
+
+.bring_right {
+    float: left;
 }
-.pull-right{
-    float: left !important;
+
+.bring_left {
+    float: right;
 }
-.text-right{
+
+.right_text {
+    text-align: left;
+}
+
+.left_text {
+    text-align: right;
+}
+
+.main_sidebar {
+    left: 0;
+}
+
+.main_container.main_menu_open {
+    margin-left: 350px;
+}
+
+.right_sidebar {
+    left: -350px !important;
+}
+
+.user_side_open {
+    margin-right: 300px;
+}
+
+.user_details {
+    right: 0;
+}
+
+.home_pass ul li {
     text-align: left !important;
 }
-.text-left{
-    text-align: right !important;
+
+.close_user_details {
+    right: -300px;
 }
-form {
-  padding: 10px;
+
+.drop_btn > a::after {
+    border-left: 6px solid transparent;
+    border-right: unset !important;
+}
+
+/*.search_box .btn {*/
+    /*left: unset !important;*/
+    /*right: 0;*/
+/*}*/
+
+.main_sidebar_wrapper ul span {
+    margin: 0 10px 0 0;
+}
+.main_sidebar_wrapper ul span {
+    float: left !important;
+}
+.drop_main_menu::before {
+    right: 10px !important;
 }
